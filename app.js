@@ -4,7 +4,7 @@ const content = document.querySelector(".content");
 
 function buttonClick() {
     content.innerHTML = `${input.value}`;
-    const blob = new Blob([content], { type: 'text/plain' });
+    const blob = new Blob([content.textContent], { type: 'text/plain' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = "result.txt";

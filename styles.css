@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-family: "Outfit";
+}
+.mainContent {
+    position: relative;
+    width: 500px;
+    top: 7em;
+    left: 15em;
+    background: transparent;
+    backdrop-filter: blur(30px);
+}
+legend{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+input {
+    font-family: "Outfit";
+    width: 300px;
+    height: 40px;
+    background: transparent;
+}
+.mainContent, input, button {
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+button {
+    background: transparent;
+    backdrop-filter: blur(50px);
+    cursor: pointer;
+    padding: 1em;
+}
+button:hover {
+    background-color: darkmagenta;
+    transition: all 500ms;
+}
